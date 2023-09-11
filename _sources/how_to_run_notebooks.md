@@ -22,11 +22,13 @@ For example, the following modules are not available in Google Colab but can be 
 !pip install cdsapi
 ```
 
-```{dropdown} cdsapi
+```{dropdown} cartopy
 See this [cartopy issue](https://github.com/SciTools/cartopy/issues/1490) for more info.
+
 ```bash
 !pip install shapely cartopy --no-binary shapely --no-binary cartopy --force
 ```
+
 ```
 
 ```{dropdown} xeofs
@@ -47,7 +49,7 @@ To run the notebooks on your computer:
 git clone https://github.com/ECMWFCode4Earth/sketchbook-earth.git
 ```
 
-** 2. Navigate to the Repository and Install the Python Modules**
+**2. Navigate to the Repository and Install the Python Modules**
 
 This is best done using `conda`:
 
